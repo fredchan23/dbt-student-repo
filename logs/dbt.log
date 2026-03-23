@@ -1,0 +1,49 @@
+[0m15:45:58.524191 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70b416d402c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70b417ab5910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70b41750a300>]}
+
+
+============================== 15:45:58.529360 | e4694a66-cdf5-48bb-b08c-cb599cc20135 ==============================
+[0m15:45:58.529360 [info ] [MainThread]: Running with dbt=1.11.7
+[0m15:45:58.529734 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'log_format': 'default', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'version_check': 'True', 'printer_width': '80', 'fail_fast': 'False', 'profiles_dir': '/home/fredc/.dbt', 'introspect': 'True', 'partial_parse': 'True', 'empty': 'None', 'invocation_command': 'dbt init --skip-profile-setup airbnb', 'log_path': 'logs', 'log_cache_events': 'False', 'debug': 'False', 'static_parser': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'no_print': 'None', 'target_path': 'None'}
+[0m15:45:58.551736 [debug] [MainThread]: Starter project path: /home/fredc/miniconda3/envs/spark/lib/python3.12/site-packages/dbt/include/starter_project
+[0m15:45:58.561030 [info ] [MainThread]: 
+Your new dbt project "airbnb" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:45:58.562641 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.09802572, "process_in_blocks": "3128", "process_kernel_time": 0.252945, "process_mem_max_rss": "101124", "process_out_blocks": "64", "process_user_time": 0.80231}
+[0m15:45:58.563093 [debug] [MainThread]: Command `dbt init` succeeded at 15:45:58.563013 after 0.10 seconds
+[0m15:45:58.563387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70b417729df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70b4170c7ec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70b4178b5d90>]}
+[0m15:45:58.563690 [debug] [MainThread]: Flushing usage events
+[0m15:45:59.668404 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:28:30.112510 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7987eb9c0470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7987ec9de9f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7987ebe3da30>]}
+
+
+============================== 07:28:30.117523 | 421534c9-343f-47e2-8e42-dec4ab33d3ac ==============================
+[0m07:28:30.117523 [info ] [MainThread]: Running with dbt=1.11.7
+[0m07:28:30.118595 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'log_path': 'logs', 'empty': 'None', 'printer_width': '80', 'target_path': 'None', 'no_print': 'None', 'warn_error': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'introspect': 'True', 'version_check': 'True', 'profiles_dir': '/home/fredc/.dbt', 'log_format': 'default', 'write_json': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'use_colors': 'True', 'debug': 'False', 'quiet': 'False', 'use_experimental_parser': 'False', 'invocation_command': 'dbt debug'}
+[0m07:28:30.131684 [info ] [MainThread]: dbt version: 1.11.7
+[0m07:28:30.132361 [info ] [MainThread]: python version: 3.12.12
+[0m07:28:30.133008 [info ] [MainThread]: python path: /home/fredc/miniconda3/envs/spark/bin/python
+[0m07:28:30.133705 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m07:28:32.928014 [info ] [MainThread]: Using profiles dir at /home/fredc/.dbt
+[0m07:28:32.928587 [info ] [MainThread]: Using profiles.yml file at /home/fredc/.dbt/profiles.yml
+[0m07:28:32.929102 [info ] [MainThread]: Using dbt_project.yml file at /home/fredc/NTU-DSAI/dbt-student-repo/dbt_project.yml
+[0m07:28:32.929711 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m07:28:32.930494 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 2.8868647, "process_in_blocks": "42408", "process_kernel_time": 1.278706, "process_mem_max_rss": "215876", "process_out_blocks": "16", "process_user_time": 5.307678}
+[0m07:28:32.931189 [debug] [MainThread]: Command `dbt debug` failed at 07:28:32.931066 after 2.89 seconds
+[0m07:28:32.931615 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7987ec04c3b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7987b3e8fc80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7987b96c4b60>]}
+[0m07:28:32.932068 [debug] [MainThread]: Flushing usage events
+[0m07:28:34.042328 [debug] [MainThread]: An error was encountered while trying to flush usage events
